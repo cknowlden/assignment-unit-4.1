@@ -28,14 +28,15 @@ function addNumbers(firstNumber,secondNumber) {
   return sum;
 }
 
-console.log(addNumbers(3,5))
+console.log('The sum of the numbers is:', addNumbers(3,5))
 
 // 4. Function to multiply three numbers & return the result
-function multiplyThree() {
-
+function multiplyThree(firstNumber,secondNumber,thirdNumber) {
+  let multiplication = firstNumber*secondNumber*thirdNumber;
+  return multiplication;
 }
 
-
+console.log('The sum of the numbers is:', multiplyThree(3,5,2))
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive(number) {
