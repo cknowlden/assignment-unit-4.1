@@ -36,7 +36,7 @@ function multiplyThree(firstNumber,secondNumber,thirdNumber) {
   return multiplication;
 }
 
-console.log('The sum of the numbers is:', multiplyThree(3,5,2))
+console.log('The multiplicaation of the numbers is:', multiplyThree(3,5,2))
 // 5. Function that will return true if a number is positive, 
 //    or greater than zero, and false otherwise
 function isPositive(number) {
