@@ -55,8 +55,8 @@ console.log(`The number is positive: ${isPositive(49)}`);
 // 6. Function to return the _last_ item in an array. If the 
 //    array is empty, return `undefined`.
 let array = ['potato', 9, 'tickets', -99, 'kittens']
+let lastItem = array[array.length-1];
 function getLast(array) {
-  let lastItem = array.length-1;
   return lastItem
 }
 console.log(`items in the array, ${array}`);
