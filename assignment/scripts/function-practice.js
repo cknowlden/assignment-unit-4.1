@@ -19,13 +19,16 @@ function helloName(name) {
 }
 
 // Remember to call the function to test
-console.log(helloName('Your Name'));
+console.log(helloName('Cali'));
 
 // 3. Function to add two numbers together & return the result
-function addNumbers(firstNumber) {
+function addNumbers(firstNumber,secondNumber) {
   // return firstNumber + secondNumber;
+  let sum = firstNumber+secondNumber;
+  return sum;
 }
 
+console.log(addNumbers(3,5))
 
 // 4. Function to multiply three numbers & return the result
 function multiplyThree() {
