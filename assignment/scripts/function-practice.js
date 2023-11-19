@@ -64,19 +64,18 @@ console.log('the last item is:', getLast());
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-
+let randomArray = ['purple', 45, 'pajamas', -112, 0, 'elementary']
 function find(value, array) {
-//ref 'array' above
   for (i = 0; i < array.length; i++){
     if (array[i] === value){
       return true;
       } else {
-    } return false;
-  }
+    } 
+  } return false;
 }
 
-console.log(`the array includes these values: ${array}`);
-console.log('I found the value that you are looking for', find(9, array));
+console.log(`the array includes these values: ${randomArray}`);
+console.log('I found the value that you are looking for', find('pajamas', randomArray));
 console.log('I found the value that you are looking for', find(189, array));
 
 // ----------------------
