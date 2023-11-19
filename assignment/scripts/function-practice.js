@@ -84,9 +84,14 @@ console.log('I found the value that you are looking for', find(189, array));
 console.log('*********STRETCH GOALS**********')
 // 8. Function to check if a letter is the first letter in a 
 //    string. Return true if it is, and false otherwise
+let letter;
+let string; 
 function isFirstLetter(letter, string) {
-
+string.startsWith(letter);
 }
+letter = 'r';
+string = 'red rover red rover send Billy right over';
+console.log(letter, 'is the first letter of the string', isFirstLetter(letter, string));
 // 9. Function to return the sum of all numbers in an array
 function sumAll(array) {
   let sum = 0;
