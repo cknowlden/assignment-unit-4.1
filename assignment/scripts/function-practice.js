@@ -60,13 +60,22 @@ function getLast(array) {
   return lastItem
 }
 console.log(`items in the array, ${array}`);
-console.log(getLast());
+console.log('the last item is:', getLast());
 // 7. Function to find a value in an array. Return true if the 
 //    value is found and false otherwise. Use a loop;
 //    DO NOT use Array.includes, Array.indexOf, or Array.find 
-function find(value, array) {
 
+function find(value, array) {
+  for (value of array){
+    if {
+      value === ();
+      return true;
+    } else {
+      return false;
+    }
+    }
 }
+console.log('I found the value you are looking for:')
 
 // ----------------------
 // Stretch Goals
