@@ -109,6 +109,7 @@ function sumAll(newArray) {
   return sum;
 }
 console.log('the sum of the numbers in the array is', sumAll(newArray));
+
 //Alternatively, Ryan Barfield helped me to understand how to write this in a simplified way with a for of loop:
 // function sumAll(newArray) {
 //   let sum = 0;
