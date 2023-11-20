@@ -87,19 +87,28 @@ console.log('*********STRETCH GOALS**********')
 let letter;
 let string; 
 function isFirstLetter(letter, string) {
-string.startsWith(letter);
+if (string.startsWith(letter)){
+return true;
+} else {
+  return false;
+}
 }
 letter = 'r';
 string = 'red rover red rover send Billy right over';
 console.log(letter, 'is the first letter of the string', isFirstLetter(letter, string));
 // 9. Function to return the sum of all numbers in an array
-function sumAll(array) {
-  let sum = 0;
+let sum = 0;
+let newArray = [2, -8, 4, 17];
+console.log(`the array has the following numbers: ${newArray}`);
+function sumAll(newArray) {
   // TODO: loop to add items
-
+  for (let i = 0; i < newArray.length; i++){
   // TODO: return the sum
+    sum += newArray[i];
+  }
+  return sum
 }
-
+console.log('the sum of the numbers in the array is', sumAll(newArray));
 // 10. Function to return a new array of all positive (greater than zero)
 //     numbers contained in an input array. If there are no positive numbers
 //     return an empty array. Note: The input array should not change.
